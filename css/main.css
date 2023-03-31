@@ -8,40 +8,40 @@ body {
 
 /* NAVIGATION STYLES */
 
-.topnav {
-    background-color: #ffffff;
-    overflow: hidden;
-    width: 100%;
-  }
-  
-.topnav a {
+  nav {
+      width: 100%;
+      background-color: white;
+      overflow:auto;
+    }
+
+  ul {
+      padding: 0;
+      margin: 0 0 0 150px;
+      list-style: none;
+    }
+
+  li {
     float: left;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 300px;
-    padding-top: 20px;
-    padding-bottom: 30px;
- }
+    }
 
-.topnav a:hover {
-    background-color: #ff84f5;
-    color: black;
- }
-
-.topnav input[type=text] {
-    float: right;
-    width: 25%;
-    padding: 10px;
-    border: 1px solid;
-    margin-top: 10px;
-    margin-right: 16px;
-    font-size: 18px;
+  .logo img {
+    width: 200%;
+    height: auto;
+    float: left;
   }
 
-  .logo {
-    width: 30%;
-    height: auto;
+  nav a {
+    width: 100px;
+    display:block;
+    margin: 50px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  nav a:hover {
+    background-color: #ff84f5;
+    transform: uppercase;
   }
