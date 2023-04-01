@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: lightgray;
 }
 
@@ -9,39 +9,69 @@ body {
 /* NAVIGATION STYLES */
 
   nav {
-      width: 100%;
-      background-color: white;
-      overflow:auto;
-    }
+    width: 100%;
+    background-color: white;
+    overflow:auto;
+  }
 
   ul {
-      padding: 0;
-      margin: 0 0 0 150px;
-      list-style: none;
-    }
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+  }
 
   li {
     float: left;
-    }
+  }
 
   .logo img {
-    width: 200%;
+    width: 270%;
     height: auto;
-    float: left;
+    pointer-events: none;
   }
 
   nav a {
     width: 100px;
     display:block;
-    margin: 50px;
-    padding: 10px;
+    margin: 40px 130px;
+    padding: 5px 10px;
     text-decoration: none;
     color: black;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   nav a:hover {
     background-color: #ff84f5;
-    transform: uppercase;
   }
+
+  .topnav a.active {
+    background-color: #ff84f5;
+    color: black;
+  }
+
+  .topnav input[type=text] {
+    width: 20%;
+    height: auto;
+    margin-top: 15px;
+    margin-right: 10px;
+    padding: 10px;
+    float: right;
+  }
+  
+
+  .button {
+    display: inline-block;
+    background-color: #ff84f5;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 15px 20px;
+    cursor: pointer;
+  }
+
+  /* MAIN CONTENT */
+
