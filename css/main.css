@@ -35,7 +35,7 @@ body {
     display: block;
     margin-right: 40px;
     margin-left: 230px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 40px;
     padding: 5px 10px;
     text-decoration: none;
@@ -56,11 +56,21 @@ body {
   .topnav input[type=text] {
     width: 15%;
     height: auto;
+    font-size: 22px;
+    font-weight: bold;
     margin-right: 12px;
     margin-left: 380px;
     margin-top: 50px;
     margin-bottom: 20px;
     padding: 10px 20px;
+    border: 1px solid black;
+  }
+
+  .searchbutton {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background: lightgrey;
   }
 
   .button {
@@ -79,36 +89,37 @@ body {
   /* MAIN CONTENT */
 
   .camera1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 50px;
     width: 30%;
+    height: auto;
   }
 
   .camera2 {
-    display: block;
-    margin-left: 200px;
-    margin-top: -460px;
-    width: 24%;
+    display: flex;
+    margin-left: 335px;
+    margin-top: 30px;
+    width: 20%;
+    height: auto;
   }
 
   .camera3 {
-    display: block;
-    margin-left: 1990px;
-    margin-top: -460px;
-    width: 24%;
+    display: flex;
+    margin-left: 335px;
+    margin-top: 30px;
+    width: 20%;
+    height: auto;
   }
 
   .information-photography {
-    margin-left: 1030px;
-    margin-top: 100px;
+    margin-left: 200px;
+    margin-top: 400px;
     font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .paragraphs {
-    width: 50%;
     font-size: 23px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-color:white;
@@ -116,8 +127,9 @@ body {
     padding-left: 17px;
     padding-right: 17px;
     padding-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 200px;
+    width: 50%;
+    height: auto;
   }
 
   /* FOOTER */

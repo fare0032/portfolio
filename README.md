@@ -10,8 +10,8 @@
 
 <!-- IMAGES TAKEN FROM FREEPIK -->
 ![vintagecamera](woman taking picture with vintage camera.jpg)
-![alt text](image.jpg)
-![alt text](image.jpg)
+![blurredcamera](professional-camera-blurred.jpg)
+![closeupvintagecamera](closeup-vintage-film-retro-camera-male-hands.jpg)
 ![alt text](image.jpg)
 ![alt text](image.jpg)
 ![alt text](image.jpg)
