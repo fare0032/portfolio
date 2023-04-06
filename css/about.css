@@ -93,13 +93,62 @@ body {
 
   /* MAIN CONTENT */
 
-  .header {
-    padding-left: 10px;
+  .header2 {
+    background-color:white;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 20%;
+    height: auto;
   }
 
-  .paragraph1 {
-    font-size: 23px;
-  }
+.editing {
+  display: block;
+  text-align: center;
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:white;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-left: 56px;
+  margin-right: 500px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 25%;
+  height: auto;
+}
+
+.development {
+  display: block;
+  text-align: center;
+  font-size: 23px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:white;
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 35px;
+  margin-left: 100px;
+  margin-right: 160px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  float: right;
+  width: 25%;
+  height: auto;
+}
+
 
   
   /* FOOTER */
