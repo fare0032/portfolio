@@ -112,12 +112,14 @@ nav a:hover {
   .bridegroom {
     width: 100%;
     height: auto;
-    margin-left: 180px;
+    float: left;
   }
   
   /* INPUT STYLES */
   input[type=text], select, textarea {
+    display: inline-block;
     width: 96%;
+    height: auto;
     padding: 10px;
     border: 1px solid #000000;
     margin: 10px;
@@ -133,6 +135,7 @@ nav a:hover {
     border: none;
     cursor: pointer;
     font-size: 20px;
+    float:right;
   }
   
   input[type=submit]:hover {
