@@ -105,9 +105,11 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-left: 10px;
     padding-right: 10px;
-    margin: 70px;
-    width: 80%;
+    margin: 20px;
+    width: 50%;
     height: auto; 
+    animation: bounce; 
+    animation-duration: infinite; 
   }
   
   /* INPUT STYLES */
@@ -118,7 +120,10 @@ body {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    font-size: 20px;
+    font-size: 17px;
+    color: var(--bs-gray-800);
+    background-color: var(--bs-gray-100);
+    border: 1px solid var(--bs-gray-100);
   }
   
   input[type=submit] {
@@ -128,6 +133,8 @@ body {
     border: none;
     cursor: pointer;
     font-size: 20px;
+    animation: bounce; 
+    animation-duration: 3s; 
   }
   
   input[type=submit]:hover {
@@ -145,7 +152,7 @@ body {
   /* TWO COLUMNS FLOAT SIDE BY SIDE */
   .column {
     display: block;
-    width: 80%;
+    width: 60%;
     margin-left: 80px;
     margin-right: 40px;
     padding: 20px;

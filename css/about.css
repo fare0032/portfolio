@@ -202,6 +202,21 @@ body {
       font-size: 22px;
     }
 
+    .skiplink {
+      width: 30%;
+      height: auto;
+      background-color: #ffffff;
+      border: 1px dotted black;
+      margin: 20px 20px;
+      margin-left: 65px;
+      margin-bottom: 35px;
+      padding-bottom: 30px;
+      padding: 10px 10px;
+      text-align: center;
+      font-size: 20px;
+
+    }
+
   /* FOOTER */
 
   .copyright {
