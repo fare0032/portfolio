@@ -60,7 +60,7 @@ body {
     font-size: 22px;
     font-weight: bold;
     margin-right: 5px;
-    margin-left: 170px;
+    margin-left: 85px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px 20px;
@@ -100,33 +100,44 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 40px;
+    margin: 70px;
+    width: 80%;
     height: auto;
   }
 
-.editing {
-  display: inline-block;
-  text-align: center;
-  font-size: 23px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color:white;
-  border: 1px solid black;
-  padding: 10px 12px;
-  width: 400px;
-  height: auto;
-}
+  .editing, .development {
+    float: left;
+    width: 85%;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin: 20px 20px;
+    margin-left: 65px;
+    margin-bottom: 35px;
+    padding-bottom: 30px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-.development {
-  display: inline-block;
-  text-align: center;
-  font-size: 23px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color:white;
-  border: 1px solid black;
-  padding: 10px 12px;
-  width: 400px;
-  height: auto;
-}
+  .editingimage {
+    width: 50%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .developmentimage {
+    width: 50%;
+    height: auto;
+    padding: 15px;
+  }
 
   /* FOOTER */
 
