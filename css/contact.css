@@ -135,7 +135,7 @@ nav a:hover {
     border: none;
     cursor: pointer;
     font-size: 20px;
-    float:right;
+    float:left;
   }
   
   input[type=submit]:hover {
