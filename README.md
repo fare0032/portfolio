@@ -29,3 +29,6 @@ I've learned that it takes a lot of effort and professionalism to create and wor
 [Social Media Icons](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css)
 [Css Animation Library](https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css")
 [Bootstrap Framework](https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css)
+[Instagram](https://www.instagram.com/jfrsphotography/)
+[Twitter](https://www.facebook.com/JessyFarez9714/)
+[Facebook](https://twitter.com/jessyyfares/)
